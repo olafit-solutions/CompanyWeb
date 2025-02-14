@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="welcome-screen">
+        <div class="welcome-content">
+            <div class="welcome-logo">
+                <svg class="logo-svg" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+                    <text x="30" y="32" class="logo-text">Olaf</text>
+                    <text x="85" y="32" class="logo-subtext">IT Solutions</text>
+                </svg>
+            </div>
+            <div class="wave-container">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+            <p>Please wait while we prepare your experience...</p>
+        </div>
+    </div>
+
+    <main class="main-content hidden">
+        <header>
+            <nav>
+                <div class="logo">
+                    <svg class="logo-svg" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+                        <path class="logo-path" d="M20 10 A20 20 0 1 0 20 40 A20 20 0 1 0 20 10" />
+                        <path class="logo-line" d="M50 10 L50 40" />
+                        <text x="60" y="32" class="logo-text">Olaf</text>
+                        <text x="110" y="32" class="logo-subtext">IT Solutions</text>
+                    </svg>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="#services"><i class="fas fa-cogs"></i>Services</a></li>
+                    <li><a href="#training"><i class="fas fa-graduation-cap"></i>Training</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i>About</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <!-- Remove this div and its contents
+                <div class="floating-elements">
+                    <i class="fas fa-server"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fas fa-cloud"></i>
+                    <i class="fas fa-network-wired"></i>
+                    <i class="fas fa-microchip"></i>
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                -->
+            </div>
+            <div class="hero-content">
+                <h2>Innovative IT Solutions</h2>
+                <p>We transform businesses through cutting-edge technology and expert solutions</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80')"></div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with the latest technologies</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80')"></div>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80')"></div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and services</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80')"></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Comprehensive security solutions for your business</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80')"></div>
+                    <h3>Data Analytics</h3>
+                    <p>Transform your data into actionable insights</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&q=80')"></div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Intelligent solutions for process automation</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80')"></div>
+                    <h3>DevOps Services</h3>
+                    <p>Streamline development and operations workflow</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80')"></div>
+                    <h3>IT Consulting</h3>
+                    <p>Strategic technology planning and advisory</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80')"></div>
+                    <h3>Infrastructure Management</h3>
+                    <p>24/7 monitoring and maintenance of IT systems</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="training" class="training">
+            <h2>DevOps Training Courses</h2>
+            <p class="section-description">Enhance your DevOps skills with our personalized training programs</p>
+            
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80')"></div>
+                    <div class="course-content">
+                        <span class="course-level">Beginner</span>
+                        <h3>DevOps Fundamentals</h3>
+                        <p>Learn the core concepts of DevOps methodology and practices</p>
+                        <ul class="course-features">
+                            <li><i class="fas fa-clock"></i> 20 Hours</li>
+                            <li><i class="fas fa-video"></i> Live Sessions</li>
+                            <li><i class="fas fa-certificate"></i> Certificate</li>
+                        </ul>
+                        <div class="course-footer">
+                            <span class="price">$499</span>
+                            <button class="enroll-button">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image" style="background-image: url('https://images.unsplash.com/photo-1537884944318-390069bb8665?auto=format&fit=crop&q=80')"></div>
+                    <div class="course-content">
+                        <span class="course-level">Intermediate</span>
+                        <h3>CI/CD Pipeline Mastery</h3>
+                        <p>Master continuous integration and deployment workflows</p>
+                        <ul class="course-features">
+                            <li><i class="fas fa-clock"></i> 30 Hours</li>
+                            <li><i class="fas fa-video"></i> Live Sessions</li>
+                            <li><i class="fas fa-certificate"></i> Certificate</li>
+                        </ul>
+                        <div class="course-footer">
+                            <span class="price">$699</span>
+                            <button class="enroll-button">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image" style="background-image: url('https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80')"></div>
+                    <div class="course-content">
+                        <span class="course-level">Advanced</span>
+                        <h3>Enterprise DevOps</h3>
+                        <p>Advanced DevOps practices for enterprise environments</p>
+                        <ul class="course-features">
+                            <li><i class="fas fa-clock"></i> 40 Hours</li>
+                            <li><i class="fas fa-video"></i> Live Sessions</li>
+                            <li><i class="fas fa-certificate"></i> Certificate</li>
+                        </ul>
+                        <div class="course-footer">
+                            <span class="price">$999</span>
+                            <button class="enroll-button">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Replace the entire location-section div with this simpler version -->
+            <div class="location-section">
+                <h3>Training Location</h3>
+                <div class="location-content">
+                    <i class="fas fa-map-marker-alt location-icon"></i>
+                    <div class="location-info">
+                        <p class="location-main">Prague, Czech Republic</p>
+                        <p class="location-sub">Offering both on-site and remote training options worldwide</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add a modal for enrollment -->
+        <div class="enrollment-modal" id="enrollmentModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Enroll in Course</h2>
+                <form id="enrollmentForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company (Optional)</label>
+                        <input type="text" id="company">
+                    </div>
+                    <div class="selected-course">
+                        <h3>Selected Course:</h3>
+                        <p id="selectedCourse"></p>
+                        <p id="coursePrice"></p>
+                    </div>
+                    <button type="submit" class="submit-button">Proceed to Payment</button>
+                </form>
+            </div>
+        </div>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="address-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Our Location</h3>
+                        <p>Mezi Alejemi 304/304</p>
+                        <p>295 01 Mnichovo Hradiště</p>
+                        <p>Czech Republic</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@olafit.solutions</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+420 XXX XXX XXX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.8876996344707!2d14.967931776889714!3d50.52631787159676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470955c9c7fb8f67%3A0x7f64a0e797c534f0!2sMezi%20Alejemi%20304%2C%20295%2001%20Mnichovo%20Hradi%C5%A1t%C4%9B!5e0!3m2!1sen!2scz!4v1710272547943!5m2!1sen!2scz" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
